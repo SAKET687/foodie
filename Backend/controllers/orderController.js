@@ -12,7 +12,7 @@ const placeOrder = async (request, response) => {
     const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 
-    const frontendUrl = "http://localhost:5174";
+    const frontendUrl = "https://foodie-frontend-hi8z.onrender.com";
 
     try {
         const newOrder = new orderModel({
