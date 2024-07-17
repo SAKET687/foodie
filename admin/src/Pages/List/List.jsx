@@ -40,7 +40,7 @@ const List = ({ url }) => {
 
 	const fetchList = async () => {
 		try {
-			const response = await axios.get(`${url}/api/food/list`);
+			const response = await axios.get(`https://foodie-backend-yast.onrender.com/api/food/list`);
 			if (response.data.success) {
 				console.log(response.data.data);
 				setList(response.data.data);
@@ -63,7 +63,7 @@ const List = ({ url }) => {
 	}, []);
 
 	const removeFood = async (foodId) => {
-		const response = await axios.post(`${url}/api/food/remove`, {
+		const response = await axios.post(`https://foodie-backend-yast.onrender.com/api/food/remove`, {
 			id: foodId,
 		});
 		if (response.data.success) {
