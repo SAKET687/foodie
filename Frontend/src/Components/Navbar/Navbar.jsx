@@ -22,10 +22,8 @@ const Navbar = ({ setShowLogin }) => {
 
 	return (
 		<div className="navbar">
-			<Link to="/">
-				{/* <img src={assets.logo} className="logo" alt="TOMATO LOGO" /> */}
-				
-				<img src={assets.latest_logo} className="logo" alt="TOMATO LOGO" />
+			<Link to="/">				
+				<img src={assets.latest_logo} className="logo" alt="LOGO" />
 			</Link>
 			<ul className="navbar-menu">
 				<Link

@@ -40,13 +40,13 @@ const Footer = () => {
 						<h2>Get in Touch</h2>
 						<ul>
 							<li>+91 9876543210</li>
-							<li>info@tomato.com</li>
+							<li>info@foodiexpress.com</li>
 						</ul>
 					</div>
 				</div>
 				<hr />
 				<p className="footer-copyright">
-					Copyright 2024 &copy; Tomato.com - All Rights Reserved.
+					Copyright 2024 &copy; Foodie Express - All Rights Reserved.
 				</p>
 			</div>
 		</>
